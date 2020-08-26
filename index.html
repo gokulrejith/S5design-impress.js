@@ -179,8 +179,9 @@
 			<span style="color : #8f14ad">
 			</span>
 			<p>-If the item is lost, we can start the app and get to know how near or far we are from the item</p>
-			<p>-The BLE module sends the RSSI (Receiver Signal Strength Information).</p>
-			<p>-To enable enhanced ease of tracking the buzzer will start beeping and the LED will blink.</p>
+			<p>-The BLE module transmits the RSSI (Receiver Signal Strength Information).</p>
+			<p>-Further, the module also tells the MCU to beep the buzzer and blink the LED.</p>
+			<p>-This is for enhanced ease of tracking.</p>
 			<p>-The proximity of the lost item will correspond to the BLE module. Distance can be approximated using
 				RSSI. </p>
 		</div>
@@ -195,8 +196,10 @@
 			<span style="color : #8f14ad">
 				<h2>Feasibility</h2>
 			</span>
-			<p>-Smaller SMD BLE modules like the BLE-112 can be used but currently they are not available for purchase and we have certain limitations to work on it. </p>
-			<p>-The theoretical range of HM-10 moduleis 100m, but this range is possible only if there are no obstructions to the
+			<p>-Smaller SMD BLE modules like the BLE-112 can be used but currently they are not available for purchase
+				and we have certain limitations to work on it. </p>
+			<p>-The theoretical range of HM-10 moduleis 100m, but this range is possible only if there are no
+				obstructions to the
 				signal like walls, building, etc.</p>
 			<p>-Legal feasibility: It is legal to use BLE modules anywhere.</p>
 			<p>-Lack of BLE documentation</p>
@@ -209,10 +212,11 @@
 			</span>
 			<p>1. HM-10 - <span>&#8377;</span>300</p>
 			<p>2. USB to TTL converter - <span>&#8377;</span>150</p>
-			<p>3. Cell - <span>&#8377;</span>40</p>
-			<p>4. Miscellaneous - <span>&#8377;</span>40</p>
+			<p>3. MCU - <span>&#8377;</span>150</p>
+			<p>4. Cell - <span>&#8377;</span>40</p>
+			<p>5. Miscellaneous - <span>&#8377;</span>40</p>
 			<span style="color : #ca0000">
-				<p>Total cost - <span>&#8377;</span>530</p>
+				<p>Total product cost (not project) - <span>&#8377;</span>530</p>
 			</span>
 		</div>
 
@@ -222,7 +226,8 @@
 				<h2>Hardware required:</h2>
 			</span>
 			<p>1. HM-10 BLE module</p>
-			<p>2. 3.7 V Battery</p>
+			<p>2. Microcontroller</p>
+			<p>3. 3.7V battery</p>
 			<p>3. TTL to USB converter</p>
 			<span style="color : #8f14ad">
 				<h2>Software required:</h2>
@@ -240,23 +245,25 @@
 			data-transition-duration="4000" style="font-size: 30px; text-align: center;">
 			<span style="color : #8f14ad"><b>References</b></span>
 			<p><br>
-				1. https://hal.inria.fr/hal-01995171/document (RSSI or Time-of-flight for Bluetooth Low Energy based
-				localization) <br><br><br>
-				2. https://learn.sparkfun.com/tutorials/bluetooth-basics/how-bluetooth-works# (Bluetooth connectivity)
+				1. https://hal.inria.fr/hal-01995171/document <span style="color : #ff726f">(RSSI or Time-of-flight for Bluetooth Low Energy based
+				localization)</span> <br><br><br>
+				2. https://learn.sparkfun.com/tutorials/bluetooth-basics/how-bluetooth-works# <span style="color : #ff726f">(Bluetooth connectivity)</span>
 				<br><br><br>
-				3. https://www.bluetooth.com/ (Bluetooth Fundamentals) <br><br><br>
-				4. https://www.design-reuse.com/articles/571 (Adaptive Frequency Hoping)
+				3. https://www.bluetooth.com/ <span style="color : #ff726f">(Bluetooth Fundamentals)</span> <br><br><br>
+				4. https://www.design-reuse.com/articles/571 <span style="color : #ff726f">(Adaptive Frequency Hoping)</span>
 			</p>
 		</div>
 
 		<div id="box2" class="step box" data-x="2825" data-y="-40000" data-z="-40000" data-transition-duration="2000"
-			data-rotate="800" style="text-align: center;">
+			data-rotate="800" style="text-align: center;position: relative;">
 			<h1 style="display: flex;justify-content: center;align-items: center;"><b>Thank you</b></h1>
 			<span style="color : #8f14ad">
 				<h5 style="display: flex;justify-content: center;align-items: center;">Queries?</h5>
 			</span>
-			<h6 style="position: absolute; bottom: 0; right: 30; width: 100px; text-align:right;"> <span
-					style="color : #ff726f">dew</span><span style="color : #9678b6">ble</span></h6><br>
+			<p style="position: absolute;right: 5px;bottom: 5px;  font-size: 20px;">
+				Crafted painstakingly with HTML, CSS & impress.js</p>
+			<h5 style="position: absolute; bottom: 0; left: 100; width: 100px; text-align:left;">
+				<span style="color : #ff726f">dew</span><span style="color : #9678b6">ble</span></h5><br>
 		</div>
 
 	</div>
