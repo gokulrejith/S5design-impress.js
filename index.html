@@ -13,9 +13,10 @@
 			background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 			background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 		}
+
 		p {
-  		font-weight: 900 !important;
-			}
+			font-weight: 900 !important;
+		}
 
 		.box {
 			display: block;
@@ -46,37 +47,38 @@
 			font-size: 40px;
 			color: rgb(102, 102, 102);
 		}
+
+		.dot {
+			height: 25px;
+			width: 25px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+		}
 	</style>
 </head>
 
 <body>
 
 	<div id="impress">
-		<div class="step box" data-x="850" data-y="3000" data-transition-duration="2000" data-rotate="90" style="text-align: center;">
-			<span style="color : #000000">
-				<p><b>Team members</b></p> <br>
-			</span>
-			<b>
-				<p>Gokul Rejithkumar &nbsp &nbsp &nbsp Amrutha M</p>
-				<p>Aibal Grojan &nbsp &nbsp &nbsp Sony Shajan</p>
-			</b>
+
+		<div id="box1" class="step box" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300"
+			data-transition-duration="2000" style="text-align: center;">
+			<h6 style="font-size: 45px;">Object Finder using <span style="color : #ff726f">Android</span> and<span
+					style="color : #9678b6"> Bluetooth Low Energy</span></h6>
+			<p style="font-size: 30px;font-weight: 900px;"><b>Team members</b></p>
+			<p style="font-size: 30px;"><span class="dot"></span>Gokul Rejithkumar &nbsp <span
+					class="dot"></span>Amrutha M</p>
+			<p style="font-size: 30px;"><span class="dot"></span>Aibal Grojan &nbsp <span class="dot"></span>Sony Shajan
+			</p>
+
 		</div>
 
-		<div class="step box" data-x="0" data-y="0" data-z="0" data-rotate="300" data-scale="1"
-			style="display: flex;justify-content: center;align-items: center;">
-			<h1>Do you often <br><span style="font-size:100px;color: #000000">struggle</b> </span> to find <br> your
-				things?</h1>
-		</div>
-
-		<div id="box1" class="step box" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-transition-duration="2000"
-			style="display: flex;justify-content: center;align-items: center;">
-			<h1> <span style="color : #ff726f">dew</span><span style="color : #9678b6">ble</span></h1><br>
-			<p>a BLE device</p>
-		</div>
-
-		<div class="step box" data-x="4400" data-y="1200" data-rotate="120" data-transition-duration="2000" style="text-align: center;">
-			 <h2>Object Finder using Android and Bluetooth </h2>
-				<p style="font-size: 34px;">-Usually, people get frustrated when they lose things such as wallets, keys, pen drives, laptops, etc.
+		<div class="step box" data-x="4400" data-y="1200" data-rotate="120" data-transition-duration="2000"
+			style="text-align: center;">
+			<h2>Project Objective </h2>
+			<p style="font-size: 34px;">-Usually, people get frustrated when they lose things such as wallets, keys, pen
+				drives, laptops, etc.
 				The main objective of this project is to help people who lose their items frequently and also avoid
 				thievery of the items.
 				<br><br>
@@ -87,7 +89,7 @@
 		<div class="step box" data-x="4400" data-y="1200" data-z="50000" data-rotate="350" data-scale="5"
 			data-transition-duration="2000" style="display: flex;justify-content: center;align-items: center;">
 
-			<p> <span style="color : #8f14ad">  RANGE</span><br><br>
+			<p> <span style="color : #8f14ad"> RANGE</span><br><br>
 				<b>50</b>&nbsp meters<br /><br />
 			</p>
 		</div>
@@ -95,11 +97,6 @@
 		<div class="step box" data-x="7000" data-y="7000" data-z="7000" data-rotate="210"
 			data-transition-duration="2500" style="display: flex;justify-content: center;align-items: center;">
 			<img style="border-radius: 18px" src="Screenshot (325).png">
-		</div>
-
-		<div class="step box" data-x="7000" data-y="7000" data-z="9000" data-rotate="210"
-			style="display: flex;justify-content: center;align-items: center;">
-			<img style="border-radius: 18px" src="Screenshot (326).png">
 		</div>
 
 		<div class="step box" data-x="7000" data-y="7000" data-z="11000" data-rotate="210"
@@ -121,35 +118,39 @@
 		<div class="step box" data-x="8000" data-y="1200" data-z="-70000" data-rotate="500"
 			data-transition-duration="4000">
 			<p>
-			<h2>What is <span style="color: blue;">Bluetooth</span> Low Energy? <br></h2>
-			<p>-Hit the market in 2011 as Bluetooth 4.0.<br><br>
-			-The key difference is in Bluetooth 4.0's low power consumption. <br><br>
-			</p>
+				<h2>What is <span style="color: blue;">Bluetooth</span> Low Energy? <br></h2>
+				<p>-Hit the market in 2011 as Bluetooth 4.0.<br><br>
+					-The key difference is in Bluetooth 4.0's low power consumption. <br><br>
+				</p>
 		</div>
 
-		<div class="step box" data-x="9000" data-y="2200" data-z="-71000" data-rotate="410" data-transition-duration="2000">
+		<div class="step box" data-x="9000" data-y="2200" data-z="-71000" data-rotate="410"
+			data-transition-duration="2000">
 			<p> <span style="color : #8f14ad"> Lowest Power Consumption</span><br><br>
 				-Kept in sleep mode most of the time. <br><br>
 				-Peak power consumption <= 15mA and Average power consumption ~ 1<span>&#181;</span>A. <br><br>
-				-Uses only one tenth the power of classic Bluetooth. <br><br>
-				-In low duty cycle applications, a button cell battery could provide 5-10 years of reliable operation. 
+					-1/10th the power used by classical Bluetooth <br><br>
+					-In low duty cycle applications, a button cell battery could provide 5-10 years of reliable
+					operation.
 			</p>
 		</div>
 
-		<div class="step box" data-x="10000" data-y="3200" data-z="-72000" data-rotate="320" data-transition-duration="2000">
+		<div class="step box" data-x="10000" data-y="3200" data-z="-72000" data-rotate="320"
+			data-transition-duration="2000">
 			<p style="font-size:35px ;">
 				<span style="color : #8f14ad"> Adaptive Frequency Hoping</span><br><br>
 				-BLE uses a technique called frequency hopping spread spectrum, in which the radio hops between channels
 				on each connection event. <br><br>
 				-Frequency Hopping is a technique where when a link is formed the devices are synchronized to change
-				 channels together many times a second. The pattern of channels used is called the hop sequence and 
-				 is unique for each link. <br><br>
-				 -Since the devices spend only small amounts of time on a particular channel
-				  and because the hop sequence is different for each link the possibility of interference is minimized.
+				channels together many times a second. The pattern of channels used is called the hop sequence and
+				is unique for each link. <br><br>
+				-Since the devices spend only small amounts of time on a particular channel
+				and because the hop sequence is different for each link the possibility of interference is minimized.
 			</p>
 		</div>
 
-		<div class="step box" data-x="9200" data-y="3500" data-z="-72300" data-rotate="230" data-transition-duration="2000">
+		<div class="step box" data-x="9200" data-y="3500" data-z="-72300" data-rotate="230"
+			data-transition-duration="2000">
 			<p style="font-size:35px ;">
 				<span style="color : #8f14ad"> Connection Range</span><br><br>
 				-BLE technology has a slightly different modulation than classic Bluetooth technology. <br><br>
@@ -157,83 +158,105 @@
 			</p>
 		</div>
 
-		<div class="step box" data-x="25000" data-y="25000" data-z="-25000" data-rotate="700" data-transition-duration="2000"
-			style="display: flex;justify-content: center;align-items: center;">
+		<div class="step box" data-x="25000" data-y="25000" data-z="-25000" data-rotate="700"
+			data-transition-duration="2000" style="display: flex;justify-content: center;align-items: center;">
 			<img style="border-radius: 18px" src="block.png">
 		</div>
 
-		<div class="step box" data-x="24000" data-y="24000" data-z="-24000" data-rotate="700" data-transition-duration="2000"
-		style="font-size: 30px">
-		<span style="color : #8f14ad"><h2>Working 1</h2></span>
+		<div class="step box" data-x="24000" data-y="24000" data-z="-24000" data-rotate="700"
+			data-transition-duration="2000" style="font-size: 30px">
+			<span style="color : #8f14ad">
+				<h2>Working</h2>
+			</span>
 			<p>-Program HM 10 module and add device driver using TTL to USB converter.</p>
-			<p>-The BLE module is put in the slave mode and the phone's Bluetooth module will be the master.</p>
+			<p>-BLE modules will be the slave and the phone's Bluetooth will be the master.</p>
 			<p>-Power Supply Unit (PSU) powers the bluetooth module.</p>
 			<p>-The module will be paired before attaching to any item.</p>
 		</div>
 
-		<div class="step box" data-x="23000" data-y="23500" data-z="-23500" data-rotate="880" data-transition-duration="2000"
-		style="font-size: 30px">
-		<span style="color : #8f14ad"><h2>Working 2</h2></span>
+		<div class="step box" data-x="23000" data-y="23500" data-z="-23500" data-rotate="880"
+			data-transition-duration="2000" style="font-size: 30px">
+			<span style="color : #8f14ad">
+			</span>
 			<p>-If the item is lost, we can start the app and get to know how near or far we are from the item</p>
 			<p>-The BLE module sends the RSSI (Receiver Signal Strength Information).</p>
-			<p>-To enable enhanced ease of tracking the buzzer and LED on the tag will also light up.</p>
-			<p>-The proximity of the lost item will correspond to the BLE module. Distance can be approximated using RSSI. </p>
+			<p>-To enable enhanced ease of tracking the buzzer will start beeping and the LED will blink.</p>
+			<p>-The proximity of the lost item will correspond to the BLE module. Distance can be approximated using
+				RSSI. </p>
 		</div>
 
-		<div class="step box" data-x="22000" data-y="23000" data-z="-23000" data-rotate="700" data-transition-duration="2000"
-			style="display: flex;justify-content: center;align-items: center;">
+		<div class="step box" data-x="22000" data-y="23000" data-z="-23000" data-rotate="700"
+			data-transition-duration="2000" style="display: flex;justify-content: center;align-items: center;">
 			<img style="border-radius: 18px" src="rssi.png">
 		</div>
 
-		<div class="step box" data-x="12000" data-y="12000" data-z="50000" data-rotate="350" data-scale="5" data-transition-duration="2000"
-		style="font-size: 30px; text-align: center;">
-		<span style="color : #8f14ad"><h2>Feasibility</h2></span>
-			<p>-Smaller BLE modules like the BLE-112 can be used but presently they are not available for purchase.</p>
-			<p>-The theoretical range is 100m, but this range is applicable only if there are no obstructions to the signal like walls, building, etc.</p>
+		<div class="step box" data-x="12000" data-y="12000" data-z="50000" data-rotate="350" data-scale="5"
+			data-transition-duration="2000" style="font-size: 30px; text-align: center;">
+			<span style="color : #8f14ad">
+				<h2>Feasibility</h2>
+			</span>
+			<p>-Smaller SMD BLE modules like the BLE-112 can be used but currently they are not available for purchase and we have certain limitations to work on it. </p>
+			<p>-The theoretical range of HM-10 moduleis 100m, but this range is possible only if there are no obstructions to the
+				signal like walls, building, etc.</p>
 			<p>-Legal feasibility: It is legal to use BLE modules anywhere.</p>
+			<p>-Lack of BLE documentation</p>
 		</div>
 
-		<div class="step box" data-x="11000" data-y="5000" data-z="49000" data-rotate="500" data-scale="5" data-transition-duration="2000"
-		style="font-size: 30px; text-align: center;">
-		<span style="color : #8f14ad"><h2>Economic Feasibility</h2></span>
+		<div class="step box" data-x="11000" data-y="5000" data-z="49000" data-rotate="500" data-scale="5"
+			data-transition-duration="2000" style="font-size: 30px; text-align: center;">
+			<span style="color : #8f14ad">
+				<h2>Economic Feasibility</h2>
+			</span>
 			<p>1. HM-10 - <span>&#8377;</span>300</p>
-			<p>2. Converter - <span>&#8377;</span>150</p>
+			<p>2. USB to TTL converter - <span>&#8377;</span>150</p>
 			<p>3. Cell - <span>&#8377;</span>40</p>
 			<p>4. Miscellaneous - <span>&#8377;</span>40</p>
-			<span style="color : #ca0000"><p>Total cost - <span>&#8377;</span>530</p></span>
+			<span style="color : #ca0000">
+				<p>Total cost - <span>&#8377;</span>530</p>
+			</span>
 		</div>
 
-		<div class="step box" data-x="-22000" data-y="-22000" data-z="22000" data-rotate="300" data-transition-duration="2000"
-		style="font-size: 30px; text-align: center;">
-		<span style="color : #8f14ad"><h2>Hardware required:</h2></span>
+		<div class="step box" data-x="-22000" data-y="-22000" data-z="22000" data-rotate="300"
+			data-transition-duration="2000" style="font-size: 30px; text-align: center;">
+			<span style="color : #8f14ad">
+				<h2>Hardware required:</h2>
+			</span>
 			<p>1. HM-10 BLE module</p>
 			<p>2. 3.7 V Battery</p>
 			<p>3. TTL to USB converter</p>
-			<span style="color : #8f14ad"><h2>Software required:</h2></span>
-			<p>1. Android Studio for making the android app</p>
+			<span style="color : #8f14ad">
+				<h2>Software required:</h2>
+			</span>
+			<p>1. Android Studio</p>
 			<p>2. JAVA</p>
 		</div>
 
-		<div class="step box" data-x="-18000" data-y="-18000" data-z="18000" data-rotate="700" data-transition-duration="2000"
-			style="display: flex;justify-content: center;align-items: center;">
+		<div class="step box" data-x="-18000" data-y="-18000" data-z="18000" data-rotate="700"
+			data-transition-duration="2000" style="display: flex;justify-content: center;align-items: center;">
 			<img style="border-radius: 18px" src="time.png">
 		</div>
 
-		<div class="step box" data-x="-14000" data-y="-14000" data-z="14000" data-rotate="300" data-transition-duration="4000"
-		style="font-size: 30px; text-align: center;">
-		<span style="color : #8f14ad"><b>References</b></span><p><br>
-			1. https://hal.inria.fr/hal-01995171/document (RSSI or Time-of-flight for Bluetooth Low Energy based
-			localization) <br><br><br>
-			2. https://learn.sparkfun.com/tutorials/bluetooth-basics/how-bluetooth-works# (Bluetooth connectivity) <br><br><br>
-			3. https://www.bluetooth.com/ (Bluetooth Fundamentals) <br><br><br>
-			4. https://www.design-reuse.com/articles/571 (Adaptive Frequency Hoping)
-	</p>
+		<div class="step box" data-x="-14000" data-y="-14000" data-z="14000" data-rotate="300"
+			data-transition-duration="4000" style="font-size: 30px; text-align: center;">
+			<span style="color : #8f14ad"><b>References</b></span>
+			<p><br>
+				1. https://hal.inria.fr/hal-01995171/document (RSSI or Time-of-flight for Bluetooth Low Energy based
+				localization) <br><br><br>
+				2. https://learn.sparkfun.com/tutorials/bluetooth-basics/how-bluetooth-works# (Bluetooth connectivity)
+				<br><br><br>
+				3. https://www.bluetooth.com/ (Bluetooth Fundamentals) <br><br><br>
+				4. https://www.design-reuse.com/articles/571 (Adaptive Frequency Hoping)
+			</p>
 		</div>
 
-	<div id="box2" class="step box" data-x="2825" data-y="-40000" data-z="-40000" data-transition-duration="2000" data-rotate="800" style="text-align: center;">
+		<div id="box2" class="step box" data-x="2825" data-y="-40000" data-z="-40000" data-transition-duration="2000"
+			data-rotate="800" style="text-align: center;">
 			<h1 style="display: flex;justify-content: center;align-items: center;"><b>Thank you</b></h1>
-			<span style="color : #8f14ad"><h5 style="display: flex;justify-content: center;align-items: center;">Queries?</h5> </span>
-			<h6 style="position: absolute; bottom: 0; right: 30; width: 100px; text-align:right;"> <span style="color : #ff726f">dew</span><span style="color : #9678b6">ble</span></h6><br>
+			<span style="color : #8f14ad">
+				<h5 style="display: flex;justify-content: center;align-items: center;">Queries?</h5>
+			</span>
+			<h6 style="position: absolute; bottom: 0; right: 30; width: 100px; text-align:right;"> <span
+					style="color : #ff726f">dew</span><span style="color : #9678b6">ble</span></h6><br>
 		</div>
 
 	</div>
